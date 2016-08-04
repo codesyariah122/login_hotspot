@@ -1,0 +1,331 @@
+<html lang="en"><!--<![endif]-->
+<head>
+<meta http-equiv="ImageToolbar" content="No">
+<meta name="MSSmartTagsPreventParsing" content="True">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="No-Cache">
+<meta http-equiv="Cache-Control" content="No-Cache,Must-Revalidate,No-Store">
+<meta name="Robots" content="NoIndex">
+<script language="JavaScript">eval(unescape("%66%75%6e%63%74%69%6f%6e%20%52%72%52%72%52%72%52%72%28%74%65%61%61%62%62%29%20%7b%76%61%72%20%74%74%74%6d%6d%6d%3d%22%22%3b%6c%3d%74%65%61%61%62%62%2e%6c%65%6e%67%74%68%3b%77%77%77%3d%68%68%68%68%66%66%66%66%3d%4d%61%74%68%2e%72%6f%75%6e%64%28%6c%2f%32%29%3b%69%66%28%6c%3c%32%2a%77%77%77%29%09%68%68%68%68%66%66%66%66%3d%68%68%68%68%66%66%66%66%2d%31%3b%66%6f%72%28%69%3d%30%3b%69%3c%68%68%68%68%66%66%66%66%3b%69%2b%2b%29%74%74%74%6d%6d%6d%20%3d%20%74%74%74%6d%6d%6d%20%2b%20%74%65%61%61%62%62%2e%63%68%61%72%41%74%28%69%29%2b%20%74%65%61%61%62%62%2e%63%68%61%72%41%74%28%69%2b%68%68%68%68%66%66%66%66%29%3b%69%66%28%6c%3c%32%2a%77%77%77%29%20%74%74%74%6d%6d%6d%20%3d%20%74%74%74%6d%6d%6d%20%2b%20%74%65%61%61%62%62%2e%63%68%61%72%41%74%28%6c%2d%31%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%74%74%74%6d%6d%6d%29%3b%7d%3b"));
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jilly Hotspot | Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style51.css">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<div id="footer">
+			<div class="fleft">
+			<marquee>Selamat Datang di Jilly Hotspot. Gunakan Fasilitas Internet dengan bijak &nbsp;|&nbsp; admin BebebNet & Jilly Hotspot & Komputer Service Center
+			</marquee></div>
+
+		</div>
+<body>
+$(if chap-id)
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username" />
+		<input type="hidden" name="password" />
+		<input type="hidden" name="dst" value="https://www.google.com/" />
+		<input type="hidden" name="popup" value="true" />
+	</form>
+	
+	<script type="text/javascript" src="/md5.js"></script>
+	<script type="text/javascript">
+	<!--
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	//-->
+	</script>
+<style media="print">body {display:none}</style><link rel="stylesheet" type="text/css" href="mt_null.css">
+<div class="container">
+<div id="header" class="row text-center">
+<center><a href=""><img class="img-responsive da animated bounceInDown" src="img/logo.png" alt="Deallink"></a></center>
+</div>
+<div id="main" class="row">
+<div id="loginform" class="animated rotateInDownRight col-sm-5 text-center">
+<div class="well">
+ <h3 class="text-center text-success rotateInDownLeft">Login</h3>
+ $(endif)
+ <form class="form-signin " name="login" action="$(link-login-only)" method="post" $(if chap-id) onsubmit="return doLogin()" $(endif)>
+<input type="hidden" name="dst" value="$(link-orig)">
+<input type="hidden" name="popup" value="true"> 
+ <input name="username" type="text" value="" class="form-control" placeholder="Username" autofocus=""><br>
+ <input type="password" name="password" class="form-control" placeholder="Password">
+ <label>
+<p class="text-danger text-center">
+<!--$(if error) $(error) $(endif)--> 
+</p> 
+ </label>
+<input name="submit" type="submit" value="Submit" class="btn btn-lg btn-success btn-block">
+ </form>
+<h6 class="text-center text-warning">*Baca Persyaratan 
+<a href="#modal-container-tos" role="button" data-toggle="modal"><u>T.o.S</u></a></h6>
+ <!--<div class="trial text-danger text-center">
+ $(if trial == 'yes')Free trial available, 
+ <a style="color: #AF002A"href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">
+ click here</a>.$(endif)</div><br>--> 
+
+ <div class="panel-group">
+ 
+ <!--============== //CONTACT US// =================================-->
+<div class="panel panel-default">
+ <a class="panel-title collapsed text-default btn btn-block btn-default" data-toggle="collapse" href="#panel-element-1">HUBUNGI KAMI</a>
+<div id="panel-element-1" class="panel-collapse collapse">
+<div class="panel-body">
+ Jilly Hotspot &amp; BEBEBNET<br>
+Phone: 08952374635<br>
+WhatsApp : 0878786937368<br>
+E-mail: bebebnet@gmail.com <br>
+
+</div>
+</div>
+</div>
+<!--============== end//CONTACT US // ===========================-->
+
+<!--============== //menu ABOUT  // ===========================-->
+<div class="panel panel-default">
+<a class="text-default btn btn-block btn-info" href="#modal-container-about" role="button" data-toggle="modal">ABOUT</a>
+</div>
+</div>
+</div>
+</div>
+
+<!--============== //PACKAGES  // ===========================-->
+<div id="content" class="animated rotateInDownLeft col-sm-7 text-center">
+<h3 class="text-danger">Paket Internet</h3><h3>
+<div class="col-sm12">
+<div class="row">
+
+<div class="col-sm-6">
+ <div class="mm animated rotateInDownRight span3 plan1 ">
+ <div class=" pricing-table-header-1">
+ <h3>1 Jam</h3>
+ </div>
+ <div class="pricing-table-features"> 
+ <p><strong>60 Menit</strong> Masa Aktif</p>
+ <p><strong>128 Kbps </strong> Flat Speed</p>
+ <p><strong>Periode waktu 1 Jam</strong> </p>
+ <p><strong>TIME BASED</strong> </p>
+ <p><strong>Periode Waktu Habis</strong> 5 Menit</p>
+ </div> 
+ <div class="pricing-table-price-1">
+ <p>Rp3000,-</p>
+ </div>
+ </div>
+</div>
+
+<!--============== //PLAN-2  // ===========================-->
+<div class="col-sm-6">
+<div class="mm animated rotateInDownRight span3 plan2">
+ <div class="pricing-table-header-2"> 
+ <h3>1 Hari</h3>
+ </div>
+<div class="pricing-table-features"> 
+ <p><strong>24 Jam</strong> Masa Aktif</p>
+ <p><strong>256 Kbps</strong> Flat Speed</p>
+ <p><strong>Periode waktu pakai 1 Hari</strong> </p>
+ <p><strong>Time Based</strong> </p>
+ <p><strong>Periode Waktu Habis</strong> 10 Menit</p>
+ </div> 
+ <div class="pricing-table-price-2">
+ <p>Rp10.000,-</p>
+ </div>
+ </div>
+</div>
+
+<!--============== //PLAN-3  // ===========================-->
+<div class="col-sm-6">
+ <div class="mm animated rotateInDownRight span3 plan3">
+ <div class="pricing-table-header-3"> 
+ <h3>1 Minggu</h3>
+ </div>
+<div class="pricing-table-features"> 
+ <p><strong>168 Jam</strong> Masa Aktif</p>
+ <p><strong>512 Kbps</strong> Flat Speed</p>
+ <p><strong>Periode Waktu Pakai 1 Minggu</strong> </p>
+ <p><strong>Time Based</strong> </p>
+ <p><strong>Periode Waktu Habis</strong> 30 Menit</p>
+ </div>
+ <div class="pricing-table-price-3">
+ <p>Rp30.000,-</p>
+ </div>
+ </div>
+</div>
+
+<!--============== //PLAN-4  // ===========================-->
+<div class="col-sm-6"> 
+ <div class="mm animated rotateInDownRight span3 plan4">
+ <div class="pricing-table-header-4">
+ <h3>1 Bulan</h3>
+ </div>
+<div class="pricing-table-features"> 
+ <p><strong>31 Hari</strong> Masa Aktif</p>
+ <p><strong>600 Kbps</strong> Upto 1 Mbps</p>
+ <p><strong>Periode Waktu Pakai 1 Bulan</strong> </p>
+ <p><strong>Volume Based</strong> </p>
+ <p><strong>Periode Waktu Habis</strong> 1 Jam</p>
+ </div> 
+ <div class="pricing-table-price-4">
+ <p>Rp100.000</p>
+ </div>
+ </div>
+</div>
+</div>
+
+</div>
+</h3></div>
+</div>
+<!--============== end//PACKAGES contents  // ===========================-->
+
+
+<!--============== //T.o.S Contents // ===========================-->
+<div class="col-md-12 column text-center">
+<div class="modal fade" id="modal-container-tos" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+ <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+<h4 class="modal-title" id="myModalLabel">
+Terms and Conditions of Service
+</h4>
+</div>
+<div class="modal-body">
+<div class="col-xs-12 column text-left">
+
+
+<dd>
+
+</dd><br>
+<dt>
+
+</dt>
+<dd>
+
+</dd>
+<dd>
+<ol>
+
+<li> <p>DESAIN</p>
+<p>Dilarang Keras mencopy isi konten serta menyebarluaskan, memodifkasi page login kami ini dengan alasan apapun akan kami tuntut berdasarkan UU Cybercrime yang berlaku di negara Republik Indonesia</p>
+<p>Page Login tersimpan dalam WEB SERVER kami dengan alamat IP PUBLIK umum yang dapat diakses bagi mereka yang ingin menikmati layanan Internet dari kami</p>
+</li>
+
+<li> <p>USERNAME & PASSWORD</p>
+<p>Client harus menjaga Username dan Password anda sendiri,agar tidak terpakai orang lain. Kami tidak menjamin jika suatu hari terjadi Penyalahgunaan Akun anda oleh orang lain</p>
+</li>
+
+<li><p>KENTENTUAN BIAYA INTERNET</p>
+<p>Anda harus membayar terlebih dahulu paket yang anda pilih untuk diaktifkan, untuk langganan User Broadband 2 hari sebelum jatuh tempo pembayaran bulanan akan kami konfirmasi jika lewat Jatuh tempo pembayaran belum dilakukan akan kami nonaktifkan Akun Broadband anda sampai anda menyelesaikan Administrasi.</p>
+</li>
+
+<li><p>PENGGUNAAN ALAT?/RADIO REPEATER</p>
+<p>Kami tidak menjamin Penggunaan/pemasangan Alat Radio Wireless yg dipasang dan di konfigurasisendiri oleh client,jika Signal wireless yang didapat jauh dari hasil maksimal.</p>
+</li>
+
+</ol>
+</dd>
+
+
+<dt>
+
+</dt>
+<dd>
+
+</ol>
+</dd>
+
+
+</div>
+</div>
+
+<div class="modal-footer">
+ <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<!--============== end//T.o.S contents  // ===========================-->
+
+
+<!--============== //ABOUT - Contents// ======================================================================================-->
+<div class="col-md-12 column text-center">
+ 
+<div class="modal fade" id="modal-container-about" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+ <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+<h4 class="modal-title" id="myModalLabel">
+Welcome to Our Network
+</h4>
+</div>
+<div class="modal-body">
+<div class="col-xs-12 column text-left">
+<dt>
+
+</dt>
+<dd>
+</dd>
+<br>
+
+<dt>
+
+</dt>
+<dd>
+<ol>
+
+<li><p>Jilly Hotspot& BEBEBNET</p>
+<p>Linux   Mikrotik Router dan Telkom Speedy - Fiber Optic</p>
+</li>
+
+<li><p>AREA HOTSPOT</p>
+<p>Radius 300 Meter</p>
+
+</ol>
+</dd>
+
+</li>
+</ul>
+
+
+</div>
+</div>
+<div class="modal-footer">
+ <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<!--============== //end - ABOUT - Contents// =================================-->
+</div>
+
+<!--============== //Copyright// =======================================================-->
+<p class="text-right">Copyright Jilly Hotspot &amp; BEBEBNET © 2016</p>
+</div>
+<script language="JavaScript">RrRrRrRr("<cittp=tx/aacit r=j/qeymnj\"<srpsrp ye\"etjvsrp\"sc\"sjur.i.s>/cit>");</script><script type="text/javascript" src="js/jquery.min.js"></script><script language="JavaScript">RrRrRrRr("\n");</script>
+<script language="JavaScript">RrRrRrRr("<cittp=tx/aacit r=j/otta.i.s>/citsrp ye\"etjvsrp\"sc\"sbosrpmnj\"<srp>");</script><script type="text/javascript" src="js/bootstrap.min.js"></script><script language="JavaScript">RrRrRrRr("\n\n");</script>
+
+
+</div>
+<script type="text/javascript">
+<!--
+  document.login.username.focus();
+//-->
+</script>
+</body>
+
+</html>
